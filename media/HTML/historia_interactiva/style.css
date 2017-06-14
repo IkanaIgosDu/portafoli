@@ -1,0 +1,750 @@
+.background {
+    width: 1024px; 
+    height: 720px;
+    position: absolute;
+    background-image: url(img/menutitoldefinitiu.png);
+    background-size: cover;
+}
+
+.background_credits {
+    width: 1024px;
+    height: 720px;
+    position: absolute;
+    background-image: url(img/credits.jpg);
+    background-size: cover;
+}
+
+.return {
+    position: absolute;
+    height: 80px;
+    width: 100px;
+    bottom: 60px;
+    left: 465px;
+}
+
+#retry {
+    position: absolute;
+    height: 27px;
+    width: 90px;
+    top: 60px;
+    right: 150px;
+    color: white;
+    font-size: 30px;
+    font-family: Tekton Pro;
+    text-shadow: 02px 0px 6px Red;
+}
+
+#retry:active {
+    text-shadow: 02px 0px 6px green;
+}
+
+#quit {
+    position: absolute;
+    height: 27px;
+    width: 90px;
+    top: 60px;
+    left: 150px;
+    color: white;
+    font-size: 30px;
+    font-family: Tekton Pro;
+    text-shadow: 02px 0px 6px Red;
+}
+
+#quit:active {
+    text-shadow: 02px 0px 6px green;
+}
+
+body {
+    width: 1024px;
+    height: 720px;
+    margin: auto;
+}
+
+#book {
+    height: 500px;
+    width: 369px;
+    position: absolute;
+    left: 70px;
+    top: 150px;
+    background-image: url(img/portadallibreFinalitzada.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: +1;
+} 
+
+#book:active {
+    height: 500px;
+    width: 369px;
+    position: absolute;
+    left: 70px;
+    top: 159px;
+    background-image: url(img/portadallibreFinalitzada.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: +1;
+}
+
+#credits {
+    height: 130px;
+    width: 390;
+    position: absolute;
+    right: 65px;
+    top: 340px;
+    background-image: url(img/goldbutton.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: +1;
+}
+
+#credits:active {
+    height: 130px;
+    width: 390;
+    position: absolute;
+    right: 65px;
+    top: 340px;
+    background-image: url(img/goldbuttoninverted.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: +1;
+}
+
+#display {
+    background-image: url(img/Escena1.png);
+    margin-top: 40px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 700px;
+    height: 500px;
+}
+
+
+/***************************************************Petita Introduccio*/
+#petita_introduccio {
+    
+}
+
+#bleft_vall{
+    padding-top: 13;
+    height: 32px;
+    width: 165px;
+    background-image: url(img/bluenormalbutton.png);
+    position: absolute;
+    right: 550px;
+    bottom: 40px;
+    font-family: Tekton Pro;
+    text-shadow: 0px 0px 5px #f2de13;
+    color: white;
+    z-index: +5;
+         
+}
+
+#bright_bosc{
+    padding-top: 13;
+    height: 32px;
+    width: 165px;
+    background-image: url(img/bluenormalbutton.png);
+    position: absolute;
+    right: 310px;
+    bottom: 40px;
+    font-family: Tekton Pro;
+    text-shadow: 0px 0px 5px #f2de13;
+    color: white;
+}
+
+#petita_introduccio_text {
+    height: 120px;
+    width: 600px;
+    position: absolute;
+    right: 230px;
+    bottom: 130px;    
+    color: white;
+    font-family: Tekton Pro;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px #00b4f9;
+    overflow:scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+/***************************************************Vall*/
+#vall {
+    display: none;
+}
+
+#bleft_riu{
+    padding-top: 13;
+    height: 32px;
+    width: 165px;
+    background-image: url(img/bluenormalbutton.png);
+    position: absolute;
+    right: 550px;
+    bottom: 40px;
+    font-family: Tekton Pro;
+    text-shadow: 0px 0px 5px #f2de13;
+    color: white;
+         
+}
+
+#bright_casa{
+    padding-top: 13;
+    height: 32px;
+    width: 165px;
+    background-image: url(img/bluenormalbutton.png);
+    position: absolute;
+    right: 310px;
+    bottom: 40px;
+    font-family: Tekton Pro;
+    text-shadow: 0px 0px 5px #f2de13;
+    color: white;
+}
+
+#vall_text {
+    height: 120px;
+    width: 600px;
+    position: absolute;
+    right: 230px;
+    bottom: 130px;    
+    color: white;
+    font-family: Tekton Pro;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px #00b4f9;
+    overflow:scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+/***************************************************Bosc*/
+#bosc {
+    display: none;
+}
+
+#bleft_cova{
+    padding-top: 13;
+    height: 32px;
+    width: 165px;
+    background-image: url(img/bluenormalbutton.png);
+    position: absolute;
+    right: 550px;
+    bottom: 40px;
+    font-family: Tekton Pro;
+    text-shadow: 0px 0px 5px #f2de13;
+    color: white;
+         
+}
+
+#bright_explorar{
+    padding-top: 13;
+    height: 32px;
+    width: 165px;
+    background-image: url(img/bluenormalbutton.png);
+    position: absolute;
+    right: 310px;
+    bottom: 40px;
+    font-family: Tekton Pro;
+    text-shadow: 0px 0px 5px #f2de13;
+    color: white;
+}
+
+#bosc_text {
+    height: 120px;
+    width: 600px;
+    position: absolute;
+    right: 230px;
+    bottom: 130px;    
+    color: white;
+    font-family: Tekton Pro;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px #00b4f9;
+    overflow:scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+/***************************************************Cova*/
+
+#cova {
+    display: none;
+}
+
+#bleft_seguir{
+    padding-top: 13;
+    height: 32px;
+    width: 165px;
+    background-image: url(img/bluenormalbutton.png);
+    position: absolute;
+    right: 550px;
+    bottom: 40px;
+    font-family: Tekton Pro;
+    text-shadow: 0px 0px 5px #f2de13;
+    color: white;
+         
+}
+
+#bright_tornar{
+    padding-top: 13;
+    height: 32px;
+    width: 165px;
+    background-image: url(img/bluenormalbutton.png);
+    position: absolute;
+    right: 310px;
+    bottom: 40px;
+    font-family: Tekton Pro;
+    text-shadow: 0px 0px 5px #f2de13;
+    color: white;
+}
+
+#cova_text {
+    height: 120px;
+    width: 600px;
+    position: absolute;
+    right: 230px;
+    bottom: 130px;    
+    color: white;
+    font-family: Tekton Pro;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px #00b4f9;
+    overflow:scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/***************************************************Seguir*/
+
+#seguir {
+    display: none;
+}
+
+#seguir_text {
+    height: 120px;
+    width: 600px;
+    position: absolute;
+    right: 230px;
+    bottom: 130px;    
+    color: white;
+    font-family: Tekton Pro;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px #00b4f9;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+/***************************************************Inici 2*/
+
+#inici2 {
+    display: none;
+}
+
+#inici2_text {
+    height: 120px;
+    width: 600px;
+    position: absolute;
+    right: 230px;
+    bottom: 130px;    
+    color: white;
+    font-family: Tekton Pro;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px #00b4f9;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+/***************************************************Explorar*/
+
+#explorar {
+    display: none;
+}
+
+#bleft_tornar2{
+    padding-top: 13;
+    height: 32px;
+    width: 165px;
+    background-image: url(img/bluenormalbutton.png);
+    position: absolute;
+    right: 550px;
+    bottom: 40px;
+    font-family: Tekton Pro;
+    text-shadow: 0px 0px 5px #f2de13;
+    color: white;
+         
+}
+
+#bright_entrar{
+    padding-top: 13;
+    height: 32px;
+    width: 165px;
+    background-image: url(img/bluenormalbutton.png);
+    position: absolute;
+    right: 310px;
+    bottom: 40px;
+    font-family: Tekton Pro;
+    text-shadow: 0px 0px 5px #f2de13;
+    color: white;
+}
+
+#explorar_text {
+    height: 120px;
+    width: 600px;
+    position: absolute;
+    right: 230px;
+    bottom: 130px;    
+    color: white;
+    font-family: Tekton Pro;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px #00b4f9;
+    overflow:scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/***************************************************Entrar*/
+
+#entrar {
+    display: none;
+}
+
+#bleft_correcte{
+    padding-top: 13;
+    height: 32px;
+    width: 165px;
+    background-image: url(img/bluenormalbutton.png);
+    position: absolute;
+    right: 550px;
+    bottom: 40px;
+    font-family: Tekton Pro;
+    text-shadow: 0px 0px 5px #f2de13;
+    color: white;
+         
+}
+
+#bright_fals{
+    padding-top: 13;
+    height: 32px;
+    width: 165px;
+    background-image: url(img/bluenormalbutton.png);
+    position: absolute;
+    right: 310px;
+    bottom: 40px;
+    font-family: Tekton Pro;
+    text-shadow: 0px 0px 5px #f2de13;
+    color: white;
+}
+
+#entrar_text {
+    height: 120px;
+    width: 600px;
+    position: absolute;
+    right: 230px;
+    bottom: 130px;    
+    color: white;
+    font-family: Tekton Pro;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px #00b4f9;
+    overflow:scroll;
+    overflow-x: hidden;
+}
+
+/***************************************************Saber Death*/
+
+#saberdeath {
+    display: none;
+}
+
+#saberdeath_text {
+    height: 120px;
+    width: 600px;
+    position: absolute;
+    right: 230px;
+    bottom: 130px;    
+    color: white;
+    font-family: Tekton Pro;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px #00b4f9;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/***************************************************Casa*/
+
+#casa {
+    display: none;
+}
+
+#bleft_retorn3{
+    padding-top: 13;
+    height: 32px;
+    width: 165px;
+    background-image: url(img/bluenormalbutton.png);
+    position: absolute;
+    right: 430px;
+    bottom: 40px;
+    font-family: Tekton Pro;
+    text-shadow: 0px 0px 5px #f2de13;
+    color: white;
+}
+
+#casa_text {
+    height: 120px;
+    width: 600px;
+    position: absolute;
+    right: 230px;
+    bottom: 130px;    
+    color: white;
+    font-family: Tekton Pro;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px #00b4f9;
+    overflow:scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/***************************************************Riu*/
+
+#riu {
+    display: none;
+}
+
+#bleft_retorn{
+    padding-top: 13;
+    height: 32px;
+    width: 165px;
+    background-image: url(img/bluenormalbutton.png);
+    position: absolute;
+    right: 550px;
+    bottom: 40px;
+    font-family: Tekton Pro;
+    text-shadow: 0px 0px 5px #f2de13;
+    color: white;
+         
+}
+
+#bright_temple{
+    padding-top: 13;
+    height: 32px;
+    width: 165px;
+    background-image: url(img/bluenormalbutton.png);
+    position: absolute;
+    right: 310px;
+    bottom: 40px;
+    font-family: Tekton Pro;
+    text-shadow: 0px 0px 5px #f2de13;
+    color: white;
+}
+
+#riu_text {
+    height: 120px;
+    width: 600px;
+    position: absolute;
+    right: 230px;
+    bottom: 130px;    
+    color: white;
+    font-family: Tekton Pro;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px #00b4f9;
+    overflow:scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/***************************************************Temple*/
+
+#temple {
+    display: none;
+}
+
+#bleft_serp{
+    padding-top: 13;
+    height: 32px;
+    width: 165px;
+    background-image: url(img/bluenormalbutton.png);
+    position: absolute;
+    right: 550px;
+    bottom: 40px;
+    font-family: Tekton Pro;
+    text-shadow: 0px 0px 5px #f2de13;
+    color: white;
+         
+}
+
+#bright_centpeus{
+    padding-top: 13;
+    height: 32px;
+    width: 165px;
+    background-image: url(img/bluenormalbutton.png);
+    position: absolute;
+    right: 310px;
+    bottom: 40px;
+    font-family: Tekton Pro;
+    text-shadow: 0px 0px 5px #f2de13;
+    color: white;
+}
+
+#temple_text {
+    height: 120px;
+    width: 600px;
+    position: absolute;
+    right: 230px;
+    bottom: 130px;    
+    color: white;
+    font-family: Tekton Pro;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px #00b4f9;
+    overflow:scroll;
+    overflow-x: hidden;
+}
+
+/***************************************************Serp - Altar*/
+
+#altar {
+    display: none;
+}
+
+#bleft_seguent{
+    padding-top: 13;
+    height: 32px;
+    width: 165px;
+    background-image: url(img/bluenormalbutton.png);
+    position: absolute;
+    right: 430px;
+    bottom: 40px;
+    font-family: Tekton Pro;
+    text-shadow: 0px 0px 5px #f2de13;
+    color: white;
+}
+
+#altar_text {
+    height: 120px;
+    width: 600px;
+    position: absolute;
+    right: 230px;
+    bottom: 130px;    
+    color: white;
+    font-family: Tekton Pro;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px #00b4f9;
+    overflow:scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/***************************************************Serp - Altar 2*/
+
+#altar2 {
+    display: none;
+}
+
+#bleft_seguent{
+    padding-top: 13;
+    height: 32px;
+    width: 165px;
+    background-image: url(img/bluenormalbutton.png);
+    position: absolute;
+    right: 430px;
+    bottom: 40px;
+    font-family: Tekton Pro;
+    text-shadow: 0px 0px 5px #f2de13;
+    color: white;
+}
+
+#altar_text {
+    height: 120px;
+    width: 600px;
+    position: absolute;
+    right: 230px;
+    bottom: 130px;    
+    color: white;
+    font-family: Tekton Pro;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px #00b4f9;
+    overflow:scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/***************************************************Centpeus - Medusa Death*/
+
+#medusadeath {
+    display: none;
+}
+
+#medusadeath_text {
+    height: 120px;
+    width: 600px;
+    position: absolute;
+    right: 230px;
+    bottom: 130px;    
+    color: white;
+    font-family: Tekton Pro;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px #00b4f9;
+    overflow:scroll;
+    overflow-x: hidden;
+}
+
+/***************************************************Final*/
+
+#final {
+    display: none;
+}
+
+#bleft_menu{
+    padding-top: 13;
+    height: 32px;
+    width: 165px;
+    background-image: url(img/bluenormalbutton.png);
+    position: absolute;
+    right: 550px;
+    bottom: 40px;
+    font-family: Tekton Pro;
+    text-shadow: 0px 0px 5px #f2de13;
+    color: white;
+         
+}
+
+#bright_credits{
+    padding-top: 13;
+    height: 32px;
+    width: 165px;
+    background-image: url(img/bluenormalbutton.png);
+    position: absolute;
+    right: 310px;
+    bottom: 40px;
+    font-family: Tekton Pro;
+    text-shadow: 0px 0px 5px #f2de13;
+    color: white;
+}
+
+#final_text {
+    height: 120px;
+    width: 600px;
+    position: absolute;
+    right: 230px;
+    bottom: 130px;    
+    color: white;
+    font-family: Tekton Pro;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px #00b4f9;
+    overflow:scroll;
+    overflow-x: hidden;
+}
+
+/****************************************************/
+
+#fi{
+    font-size: 80px;
+}
+
+
+#uparrow{
+    height: 40px;
+    width:auto;
+    position: absolute;
+    right: 190px;
+    bottom: 220px;
+}
+
+
+#downarrow{
+    height: 40px;
+    width:auto;
+    position: absolute;
+    right: 190px;
+    bottom: 135px;
+}

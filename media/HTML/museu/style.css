@@ -1,0 +1,458 @@
+
+/*Estil visual de l'espai*/
+
+body {
+    width: 1024px;
+    height: 768px;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    position: relative;
+    display: block;
+    
+    
+}
+
+.background {
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1004px;
+    height: 768px;
+    float: left;
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-left: 20px;
+    position:static;
+    z-index: -5;
+}
+
+.logo {
+    background-image: url(img/museutortura.png);
+    width: 519px;
+    height: 55px;
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+p {
+    margin-left: 250px;
+    font-weight: normal;
+}
+
+/*Estils dels botons de navegació*/
+
+.button1 {
+    background-image: url(img/buttondonzelladeferro.png);
+    height: 154px;
+    width: 253px;
+    
+} 
+
+.button1:active {
+    background-image: url(img/invertbuttondonzelladeferro.png);
+}
+
+.button2{
+    background-image: url(img/buttoncadira.png);
+    height: 154px;
+    width: 253px;
+    
+} 
+
+.button2:active {
+    background-image: url(img/invertbuttoncadira.png);
+}
+
+.button3{
+    background-image: url(img/buttoncrucifixio.png);
+    height: 154px;
+    width: 253px;
+    
+} 
+
+.button3:active {
+    background-image: url(img/invertbuttoncrucifixio.png);
+}
+
+.button4{
+    background-image: url(img/buttontoro.png);
+    height: 154px;
+    width: 253px;
+    
+} 
+
+.button4:active {
+    background-image: url(img/invertbuttontoro.png);
+}
+
+.return {
+    background-image: url(img/buttonenrere.png);
+    height: 83px;
+    width: 189px;
+    margin: auto;
+    position: absolute;
+    right: 400px;
+    z-index: ;
+    
+    
+}
+
+.return:active {
+    background-image: url(img/invertbuttonenrere.png);
+}
+
+/*Estil dels textos*/
+
+a {
+    height: 154px;
+    width: 253px;
+    text-decoration: ;
+    color: white
+}
+
+
+.text {
+    width: 600px;
+    height: 499px;
+    overflow: scroll;
+    margin:auto;
+    background-color: rgba(50, 50, 50, 0.7);
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    position: absolute;
+    right: 45px;
+    top: 90px;
+    
+}
+
+
+.subtext {
+    width: 750px;
+    height: 600px;
+    overflow: scroll;
+    margin:auto;
+    background-color: rgba(50, 50, 50, 0.7);
+    border-radius: 20px;
+    margin-right: 290px;
+    margin-top: 0px;
+    padding-left: 10px;
+}
+
+.textcredits {
+    width: 890px;
+    height: 600px;
+    overflow: scroll;
+    margin:auto;
+    background-color: rgba(50, 50, 50, 0.7);
+    border-radius: 20px;
+    padding-left: 10px;  
+    padding-right: 10px;
+    margin-top: 30
+}
+
+/*Estil de les imtages*/
+
+.toro1 {
+    width: 200px;
+    height: auto;
+    border: 15px solid #4d0000;
+    margin-right: 5px;
+    margin-top: 30px;
+    position: absolute;
+    right: 5px;
+
+}
+
+.toro1:active {
+    width: auto;
+    margin: auto;
+    position:absolute; left: 0px; top: 150px;
+    z-index: +2;
+    
+}
+
+.toro2 {
+    width: 200px;
+    height: auto;
+    border: 15px solid #4d0000;
+    margin-right: 5px;
+    margin-top: 30px;
+    position: absolute;
+    right: 5px;
+    top: 160px;
+
+}
+
+.toro2:active {
+    width: auto;
+    margin: auto;
+    position:absolute; left: 0px; top: 60px;
+    z-index: +2;
+}
+
+.toro3 {
+    width: 200px;
+    height: auto;
+    border: 15px solid #4d0000;
+    margin-right: 5px;
+    margin-top: 30px;
+    position: absolute;
+    right: 5px;
+    top: 460px;
+}
+
+.toro3:active {
+    width: auto;
+    margin: auto;
+    position:absolute; left: 0px; top: 200px;
+    z-index: +2;
+}
+
+span {
+    margin-left: 20px;
+    text-shadow: 0 0 1em #000, 0 0 1em #000;
+    font-family: arial;
+    font-weight:bold;
+    font-size: 20px;
+    color: white;
+    line-height: 1.4;
+}
+
+h1 {
+     margin-left: 20px;
+    text-shadow: 0 0 1em #000, 0 0 1em #000;
+    font-family: arial;
+    font-weight:bold;
+    color: white;
+    line-height: 1.4;
+}
+
+
+/********************************************************************************************************/
+
+.creu1 {
+    width: 200px;
+    height: auto;
+    border: 15px solid #4d0000;
+    margin-right: 5px;
+    margin-top: 30px;
+    position: absolute;
+    right: 5px;
+
+}
+
+.creu1:active {
+    width: 700px;
+    margin: auto;
+    position:absolute; left: 0px; top: 150px;
+    z-index: +2;
+    
+}
+
+.creu2 {
+    width: 200px;
+    height: auto;
+    border: 15px solid #4d0000;
+    margin-right: 5px;
+    margin-top: 75px;
+    position: absolute;
+    right: 5px;
+    top: 160px;
+
+}
+
+.creu2:active {
+    width: auto;
+    margin: auto;
+    position:absolute; left: 0px; top: 200px;
+    z-index: +2;
+}
+
+.creu3 {
+    width: 200px;
+    height: auto;
+    border: 15px solid #4d0000;
+    margin-right: 5px;
+    margin-top: 0px;
+    position: absolute;
+    right: 5px;
+    top: 460px;
+}
+
+.creu3:active {
+    width: auto;
+    margin: auto;
+    position:absolute; left: 0px; top: 100px;
+    z-index: +2;
+}
+
+/********************************************************************************************************/
+
+.cadira1 {
+    width: 200px;
+    height: 150px;
+    border: 15px solid #4d0000;
+    margin-right: 5px;
+    margin-top: 30px;
+    position: absolute;
+    right: 5px;
+
+}
+
+.cadira1:active {
+    width: 300px;
+    height: auto;
+    margin: auto;
+    position:absolute; left: 0px; top: 150px;
+    z-index: +2;
+    
+}
+
+.cadira2 {
+    width: 200px;
+    height: 150px;
+    border: 15px solid #4d0000;
+    margin-right: 5px;
+    margin-top: 75px;
+    position: absolute;
+    right: 5px;
+    top: 170px;
+
+}
+
+.cadira2:active {
+    width: auto;
+    height: 600px;
+    margin: auto;
+    position:absolute; 
+    left: 0px; 
+    top: 70px;
+    z-index: +2;
+}
+
+.cadira3 {
+    width: 200px;
+    height: 150px;
+    border: 15px solid #4d0000;
+    margin-right: 5px;
+    margin-top: 0px;
+    position: absolute;
+    right: 5px;
+    top: 460px;
+}
+
+.cadira3:active {
+    width: 450px;
+    height: 500px;
+    margin: auto;
+    position:absolute; 
+    left: 0px; 
+    top: 120px;
+    z-index: +2;
+}
+
+
+
+/********************************************************************************************************/
+
+.maiden1 {
+    width: 200px;
+    height: 150px;
+    border: 15px solid #4d0000;
+    margin-right: 5px;
+    margin-top: 30px;
+    position: absolute;
+    right: 5px;
+
+}
+
+.maiden1:active {
+    width: 300px;
+    height: auto;
+    margin: auto;
+    position:absolute; left: 0px; top: 150px;
+    z-index: +2;
+    
+}
+
+.maiden2 {
+    width: 200px;
+    height: 150px;
+    border: 15px solid #4d0000;
+    margin-right: 5px;
+    margin-top: 75px;
+    position: absolute;
+    right: 5px;
+    top: 170px;
+
+}
+
+.maiden2:active {
+    width: auto;
+    height: 600px;
+    margin: auto;
+    position:absolute; 
+    left: 0px; 
+    top: 70px;
+    z-index: +2;
+}
+
+.maiden3 {
+    width: 200px;
+    height: 150px;
+    border: 15px solid #4d0000;
+    margin-right: 5px;
+    margin-top: 0px;
+    position: absolute;
+    right: 5px;
+    top: 460px;
+}
+
+.maiden3:active {
+       width: 450px;
+    height: 500px;
+    margin: auto;
+    position:absolute; 
+    left: 0px; 
+    top: 120px;
+    z-index: +2;
+}
+
+/*Estil de l'audio*/
+
+.audio {
+    z-index:;
+    position: absolute;
+    right: 450px;
+    bottom: 35px;
+    z-index: ;
+    
+}
+
+.audioindex {
+    z-index:;
+    position: absolute;
+    right: 180px;
+    bottom: 95px;
+    z-index: ;   
+}
+
+.tapa {
+    position: absolute;
+    right: 0px;
+    bottom: -2px;
+    z-index: +1;
+}
+
+/*Amagar les barres de desplegar text*/
+
+::-webkit-scrollbar { 
+    display: none; 
+}
