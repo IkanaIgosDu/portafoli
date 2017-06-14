@@ -1,0 +1,445 @@
+#body1 {
+    margin: auto;
+    background-image: url(img/background.jpg);
+    background-attachment: fixed;
+    height: auto;
+    width: auto;
+}
+
+#body2 {
+    margin: auto;
+    background-image: url(img/fons2.jpg);
+    background-attachment: fixed;
+}
+
+#nav_1 {
+    background-image: url(img/main_nav.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 158.25px;
+    width: 1106.25px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -553.125px;
+    z-index: -5;
+    
+
+}
+    
+#nav_repeat {   
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    background: url(img/nav-repeat.png) repeat-x;
+    top: 0;
+    z-index: -1;
+    margin-bottom: -97px;
+        
+
+}
+
+#logo_smite{
+    position: absolute;
+    top: 3px;
+    left: 50%;
+    margin-left: -138px;
+    background-image: url(img/logosmite.png);
+    background-size: cover;
+    height: 80px;
+    width: 290px;
+}
+
+#logo_smite:hover{
+    top: 0px;
+    cursor: pointer;
+}
+
+#gods_catalogue {
+    position: absolute;
+    margin-top: 300px; 
+    margin-right: auto;
+    left: 50%;
+    margin-left: -530px;
+    height: 1000px;
+    width: 1000px;
+    border-image: url(img/border-horizontal-filligree.png) fill 60 48 repeat;
+    border-width: 60px 48px;
+    border-style: solid;
+    z-index: 5;
+}
+
+#weapon_fan_out{
+    position: absolute;
+    background-image: url(img/weapon-fan-out.png);
+    background-size: cover;
+    height: 250px;
+    width: 508px;
+    z-index: -3;
+    left: 50%;
+    margin-left: -247.5px;
+    top: 150px;
+}
+
+#medusa_frame {
+    position: absolute;
+    background-image: url(img/Gods/frame_medusa.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 340px;
+    width: 200px;
+    z-index: 99999;
+}
+
+#medusa_frame:hover {
+    top: 5px;
+    cursor: pointer;
+}
+
+#ahpuch_frame {
+    position: absolute;
+    background-image: url(img/Gods/frame_ahpuch.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 340px;
+    width: 200px;
+    z-index: 99999;
+    left: 260px;
+}
+
+#ahpuch_frame:hover {
+    top: 5px;
+    cursor: pointer;
+}
+
+#thanatos_frame {
+    position: absolute;
+    background-image: url(img/Gods/frame_thanatos.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 340px;
+    width: 200px;
+    z-index: 99999;
+    left: 520px;
+}
+
+#thanatos_frame:hover {
+    top: 5px;
+    cursor: pointer;
+}
+
+#terra_frame {
+    position: absolute;
+    background-image: url(img/Gods/frame_terra.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 340px;
+    width: 200px;
+    z-index: 99999;
+    left: 780px;
+}
+
+#terra_frame:hover {
+    top: 5px;
+    cursor: pointer;
+}
+
+#guide {
+    position: absolute;
+    left: 50%;
+    top: 85px;
+    margin-left: -60;
+    background-image: url(img/guide.png);
+    background-repeat: no-repeat;
+    width: 133px;
+    height: 40px;
+}
+
+/***************************************************************************Detalls********/
+
+#abilities {
+    background-image: url(img/background2.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 1700px;
+    position: absolute;
+    top: 960px;
+    border-top: solid #886838 1px;
+    
+}
+
+#medusa-wall {
+    position: absolute;
+    width: 900px;
+    top: 180;
+    left: 50%;
+    margin-left: -450px;
+}
+
+#medusa_txt {
+    position: absolute;
+    top: 200px;
+    right: 20%;
+    font-size: 40px;
+    font-family: smite;
+    font-weight: bolder;
+    color: #886838;
+    text-shadow:
+    -1px -1px 0 darkgoldenrod,
+    1px -1px 0 darkgoldenrod,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+    
+}
+
+@font-face {
+    font-family: smite;
+    src: url(fonts/Penumbra-HalfSerif-Std_35114.ttf);
+}
+
+#audio_god {
+    height: 70;
+    position: absolute;
+    left: 50%;
+    margin-left: 354px;
+    top: 339;
+    filter: contrast(0.8);
+    
+}
+
+#audio_god:hover {
+    filter: opacity(0.7);
+    
+}
+
+#abilities_det {
+    height: auto;
+    width: 700px;
+    margin: auto;
+    margin-top: 80px;
+    border-image: url(img/border-horizontal-filligree.png) fill 60 48 repeat;
+    border-width: 60px 48px;
+    border-style: solid;
+}
+    
+#abilities_title {
+    font-size: 40px;
+    font-family: smite;
+    font-weight: bolder;
+    color: #886838;
+
+}
+
+#ability_1 {
+    height: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-bottom: solid 1px #886838;
+}
+
+#ability_2 {
+    height: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-bottom: solid 1px #886838;
+}
+
+#ability_3 {
+    height: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-bottom: solid 1px #886838;
+}
+
+#ability_4 {
+    height: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-bottom: solid 1px #886838;
+}
+
+#ability_5 {
+    height: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-bottom: solid 1px #886838;
+}
+
+#text_title1 {
+    font-family: smite;
+    color: white;
+}
+
+#text_title2 {
+    font-family: smite;
+    color: white;
+}
+
+#text_title3 {
+    font-family: smite;
+    color: white;
+}
+
+#text_title4 {
+    font-family: smite;
+    color: white;
+}
+
+#text_title5 {
+    font-family: smite;
+    color: white;
+}
+
+#text_normal1 {
+    font-family: calibri;
+    color: white;
+}
+
+#text_normal2 {
+    font-family: calibri;
+    color: white;
+}
+
+#text_normal3 {
+    font-family: calibri;
+    color: white;
+}
+
+#text_normal4 {
+    font-family: calibri;
+    color: white;
+}
+
+#text_normal5 {
+    font-family: calibri;
+    color: white;
+}
+
+#text_normal6 {
+    font-family: calibri;
+    color: white;
+}
+
+#text_normal7 {
+    font-family: calibri;
+    color: white;
+}
+
+#text_normal8 {
+    font-family: calibri;
+    color: white;
+}
+
+#text_normal9 {
+    font-family: calibri;
+    color: white;
+}
+
+#text_normal10 {
+    font-family: calibri;
+    color: white;
+}
+
+#text_type {
+    font-family: calibri;
+    color: #886838;
+}
+
+#god_video {
+    margin-left: 40px; 
+}
+
+#bunny {
+    border: solid 1px #886838;
+}
+
+#botoReproduir {
+    position: relative;
+    float: left;
+    background-image: url(img/playbutton.png);
+    height: 48px;
+    width: 47px;
+}
+
+#botoPausar {
+    position:relative;
+    float: left;
+    background-image: url(img/pause.png);
+    height: 48px;
+    width: 47px;
+}
+
+#menys {
+    position:relative;
+    float: right;
+    background-image: url(img/volume_down.png);
+    height: 48px;
+    width: 47px;
+}
+
+#mes {
+    position:relative;
+    float: right;
+    background-image: url(img/volume_up.png);
+    height: 48px;
+    width: 47px;
+}
+
+#controls {
+    display: inline;
+}
+
+#god_video {
+    width: 602
+}
+
+#progress-bar {
+    position:relative;
+    height: 43px;
+    width: 410px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+#progress-bar::-webkit-progress-value { 
+    background: #c59f0f; 
+}
+
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d2691e;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d2691e;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #d2691e;
+}
+::-webkit-scrollbar-track {
+  background: #872323;
+  border: 0px none #ffffff;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #872323;
+}
+::-webkit-scrollbar-track:active {
+  background: #872323;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
